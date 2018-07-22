@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>310</x>
+      <y>80</y>
+      <w>190</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>UI
+--
+开始健身
+健身伙伴
+地图</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>310</x>
+      <y>270</y>
+      <w>190</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Controller
+--
+健身</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>310</x>
+      <y>460</y>
+      <w>190</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Domain
+--
+健身伙伴
+地图
+记录者</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>310</x>
+      <y>650</y>
+      <w>190</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Foundation
+--
+GPS
+播放器</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>190</y>
+      <w>100</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;access&gt;&gt;</panel_attributes>
+    <additional_attributes>30.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>380</y>
+      <w>100</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;access&gt;&gt;</panel_attributes>
+    <additional_attributes>30.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>570</y>
+      <w>100</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;access&gt;&gt;</panel_attributes>
+    <additional_attributes>30.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+</diagram>

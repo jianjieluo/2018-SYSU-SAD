@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>170</x>
+      <y>0</y>
+      <w>450</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>UI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>170</x>
+      <y>250</y>
+      <w>520</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Controller</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>50</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;boundry&gt;&gt;
+:开始健身</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>50</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;boundry&gt;&gt;
+:健身伙伴</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>50</y>
+      <w>100</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;boundry&gt;&gt;
+:地图</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>310</y>
+      <w>150</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;controller&gt;&gt;
+:健身
+--
+currentRecord
+--
+startRecording()
+getInstance()
+getLocation()
+pause()
+continue()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>170</x>
+      <y>550</y>
+      <w>700</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Domain</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>600</y>
+      <w>150</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entry&gt;&gt;
+:健身伙伴
+--
+data
+distance
+step
+kaluli
+--
+getInstance()
+addrecord()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>600</y>
+      <w>150</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entry&gt;&gt;
+:地图
+--
+currentLocation
+--
+getLocation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>580</x>
+      <y>600</y>
+      <w>200</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;entry&gt;&gt;
+:记录者
+--
+startLocation
+currentLocation
+time
+--
+addRecord(#location, #time)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>160</y>
+      <w>80</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;90.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>250</x>
+      <y>460</y>
+      <w>80</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;90.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>710</y>
+      <w>330</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>310.0;10.0;310.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+</diagram>

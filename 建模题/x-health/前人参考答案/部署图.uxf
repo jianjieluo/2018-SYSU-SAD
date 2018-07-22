@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>110</x>
+      <y>110</y>
+      <w>130</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;DB server&gt;&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>120</x>
+      <y>160</y>
+      <w>100</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+user
+profile</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>120</x>
+      <y>260</y>
+      <w>100</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+user
+achievements</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>350</x>
+      <y>110</y>
+      <w>130</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Web server&gt;&gt;
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>590</x>
+      <y>110</y>
+      <w>130</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Client&gt;&gt;
+{OS=Android}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>600</x>
+      <y>270</y>
+      <w>100</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Proxy
+Service</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>600</x>
+      <y>170</y>
+      <w>100</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+MVC
+Component</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>200</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+JDBC</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>200</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+HTTP/JSON</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+</diagram>

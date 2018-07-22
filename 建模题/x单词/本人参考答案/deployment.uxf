@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>18</x>
+      <y>279</y>
+      <w>108</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;server&gt;&gt;
+MySQL</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>261</x>
+      <y>207</y>
+      <w>198</w>
+      <h>252</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;server&gt;&gt;
+Web Server</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>297</x>
+      <y>270</y>
+      <w>108</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;artifact&gt;&gt;
+web server app </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>297</x>
+      <y>333</y>
+      <w>108</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;artifact&gt;&gt;
+web server app </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>297</x>
+      <y>396</y>
+      <w>108</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;artifact&gt;&gt;
+web server app </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>612</x>
+      <y>252</y>
+      <w>225</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;mobile&gt;&gt;
+{OS=Android}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>639</x>
+      <y>306</y>
+      <w>171</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+MVC Component</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>639</x>
+      <y>360</y>
+      <w>171</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>symbol=component
+Proxy services Component</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>306</y>
+      <w>180</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>HTTP/JSON protocol</panel_attributes>
+    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>117</x>
+      <y>288</y>
+      <w>162</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>JDBC
+</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link href="data:text/css;charset=utf-8,%0A%0A%0A%0Aarticle%2C%0Aaside%2C%0Adetails%2C%0Afigcaption%2C%0Afigure%2C%0Afooter%2C%0Aheader%2C%0Ahgroup%2C%0Amain%2C%0Anav%2C%0Asection%2C%0Asummary%20%7B%0Adisplay%3A%20block%3B%0A%7D%0A%0Aaudio%2C%0Acanvas%2C%0Avideo%20%7B%0Adisplay%3A%20inline%2Dblock%3B%0A%7D%0A%0Aaudio%3Anot%28%5Bcontrols%5D%29%20%7B%0Adisplay%3A%20none%3B%0Aheight%3A%200%3B%0A%7D%0A%0A%5Bhidden%5D%2C%0Atemplate%20%7B%0Adisplay%3A%20none%3B%0A%7D%0A%0A%0Ahtml%20%7B%0Afont%2Dfamily%3A%20sans%2Dserif%3B%20%0A%2Dms%2Dtext%2Dsize%2Dadjust%3A%20100%25%3B%20%0A%2Dwebkit%2Dtext%2Dsize%2Dadjust%3A%20100%25%3B%20%0A%7D%0A%0Abody%20%7B%0Amargin%3A%200%3B%0A%7D%0A%0A%0Aa%20%7B%0Abackground%3A%20transparent%3B%0A%7D%0A%0Aa%3Afocus%20%7B%0Aoutline%3A%20thin%20dotted%3B%0A%7D%0A%0Aa%3Aactive%2C%0Aa%3Ahover%20%7B%0Aoutline%3A%200%3B%0A%7D%0A%0A%0Ah1%20%7B%0Afont%2Dsize%3A%202em%3B%0Amargin%3A%200%2E67em%200%3B%0A%7D%0A%0Aabbr%5Btitle%5D%20%7B%0Aborder%2Dbottom%3A%201px%20dotted%3B%0A%7D%0A%0Ab%2C%0Astrong%20%7B%0Afont%2Dweight%3A%20bold%3B%0A%7D%0A%0Adfn%20%7B%0Afont%2Dstyle%3A%20italic%3B%0A%7D%0A%0Ahr%20%7B%0A%2Dmoz%2Dbox%2Dsizing%3A%20content%2Dbox%3B%0Abox%2Dsizing%3A%20content%2Dbox%3B%0Aheight%3A%200%3B%0A%7D%0A%0Amark%20%7B%0Abackground%3A%20%23ff0%3B%0Acolor%3A%20%23000%3B%0A%7D%0A%0Acode%2C%0Akbd%2C%0Apre%2C%0Asamp%20%7B%0Afont%2Dfamily%3A%20monospace%2C%20serif%3B%0Afont%2Dsize%3A%201em%3B%0A%7D%0A%0Apre%20%7B%0Awhite%2Dspace%3A%20pre%2Dwrap%3B%0A%7D%0A%0Aq%20%7B%0Aquotes%3A%20%22%5C201C%22%20%22%5C201D%22%20%22%5C2018%22%20%22%5C2019%22%3B%0A%7D%0A%0Asmall%20%7B%0Afont%2Dsize%3A%2080%25%3B%0A%7D%0A%0Asub%2C%0Asup%20%7B%0Afont%2Dsize%3A%2075%25%3B%0Aline%2Dheight%3A%200%3B%0Aposition%3A%20relative%3B%0Avertical%2Dalign%3A%20baseline%3B%0A%7D%0Asup%20%7B%0Atop%3A%20%2D0%2E5em%3B%0A%7D%0Asub%20%7B%0Abottom%3A%20%2D0%2E25em%3B%0A%7D%0A%0A%0Aimg%20%7B%0Aborder%3A%200%3B%0A%7D%0A%0Asvg%3Anot%28%3Aroot%29%20%7B%0Aoverflow%3A%20hidden%3B%0A%7D%0A%0A%0Afigure%20%7B%0Amargin%3A%200%3B%0A%7D%0A%0A%0Afieldset%20%7B%0Aborder%3A%201px%20solid%20%23c0c0c0%3B%0Amargin%3A%200%202px%3B%0Apadding%3A%200%2E35em%200%2E625em%200%2E75em%3B%0A%7D%0A%0Alegend%20%7B%0Aborder%3A%200%3B%20%0Apadding%3A%200%3B%20%0A%7D%0A%0Abutton%2C%0Ainput%2C%0Aselect%2C%0Atextarea%20%7B%0Afont%2Dfamily%3A%20inherit%3B%20%0Afont%2Dsize%3A%20100%25%3B%20%0Amargin%3A%200%3B%20%0A%7D%0A%0Abutton%2C%0Ainput%20%7B%0Aline%2Dheight%3A%20normal%3B%0A%7D%0A%0Abutton%2C%0Aselect%20%7B%0Atext%2Dtransform%3A%20none%3B%0A%7D%0A%0Abutton%2C%0Ahtml%20input%5Btype%3D%22button%22%5D%2C%20%0Ainput%5Btype%3D%22reset%22%5D%2C%0Ainput%5Btype%3D%22submit%22%5D%20%7B%0A%2Dwebkit%2Dappearance%3A%20button%3B%20%0Acursor%3A%20pointer%3B%20%0A%7D%0A%0Abutton%5Bdisabled%5D%2C%0Ahtml%20input%5Bdisabled%5D%20%7B%0Acursor%3A%20default%3B%0A%7D%0A%0Ainput%5Btype%3D%22checkbox%22%5D%2C%0Ainput%5Btype%3D%22radio%22%5D%20%7B%0Abox%2Dsizing%3A%20border%2Dbox%3B%20%0Apadding%3A%200%3B%20%0A%7D%0A%0Ainput%5Btype%3D%22search%22%5D%20%7B%0A%2Dwebkit%2Dappearance%3A%20textfield%3B%20%0A%2Dmoz%2Dbox%2Dsizing%3A%20content%2Dbox%3B%0A%2Dwebkit%2Dbox%2Dsizing%3A%20content%2Dbox%3B%20%0Abox%2Dsizing%3A%20content%2Dbox%3B%0A%7D%0A%0Ainput%5Btype%3D%22search%22%5D%3A%3A%2Dwebkit%2Dsearch%2Dcancel%2Dbutton%2C%0Ainput%5Btype%3D%22search%22%5D%3A%3A%2Dwebkit%2Dsearch%2Ddecoration%20%7B%0A%2Dwebkit%2Dappearance%3A%20none%3B%0A%7D%0A%0Abutton%3A%3A%2Dmoz%2Dfocus%2Dinner%2C%0Ainput%3A%3A%2Dmoz%2Dfocus%2Dinner%20%7B%0Aborder%3A%200%3B%0Apadding%3A%200%3B%0A%7D%0A%0Atextarea%20%7B%0Aoverflow%3A%20auto%3B%20%0Avertical%2Dalign%3A%20top%3B%20%0A%7D%0A%0A%0Atable%20%7B%0Aborder%2Dcollapse%3A%20collapse%3B%0Aborder%2Dspacing%3A%200%3B%0A%7D%0A%2Ego%2Dtop%20%7B%0Aposition%3A%20fixed%3B%0Abottom%3A%202em%3B%0Aright%3A%202em%3B%0Atext%2Ddecoration%3A%20none%3B%0Abackground%2Dcolor%3A%20%23E0E0E0%3B%0Afont%2Dsize%3A%2012px%3B%0Apadding%3A%201em%3B%0Adisplay%3A%20inline%3B%0A%7D%0A%0Ahtml%2Cbody%7B%20margin%3A%20auto%3B%0Apadding%2Dright%3A%201em%3B%0Apadding%2Dleft%3A%201em%3B%0Amax%2Dwidth%3A%2044em%3B%20color%3Ablack%3B%7D%2A%3Anot%28%27%23mkdbuttons%27%29%7Bmargin%3A0%3Bpadding%3A0%7Dbody%7Bfont%3A13%2E34px%20helvetica%2Carial%2Cfreesans%2Cclean%2Csans%2Dserif%3B%2Dwebkit%2Dfont%2Dsmoothing%3Asubpixel%2Dantialiased%3Bline%2Dheight%3A1%2E4%3Bpadding%3A3px%3Bbackground%3A%23fff%3Bborder%2Dradius%3A3px%3B%2Dmoz%2Dborder%2Dradius%3A3px%3B%2Dwebkit%2Dborder%2Dradius%3A3px%7Dp%7Bmargin%3A1em%200%7Da%7Bcolor%3A%234183c4%3Btext%2Ddecoration%3Anone%7Dbody%7Bbackground%2Dcolor%3A%23fff%3Bpadding%3A30px%3Bmargin%3A15px%3Bfont%2Dsize%3A14px%3Bline%2Dheight%3A1%2E6%7Dbody%3E%2A%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%21important%7Dbody%3E%2A%3Alast%2Dchild%7Bmargin%2Dbottom%3A0%21important%7D%40media%20screen%7Bbody%7Bbox%2Dshadow%3A0%200%200%201px%20%23cacaca%2C0%200%200%204px%20%23eee%7D%7Dh1%2Ch2%2Ch3%2Ch4%2Ch5%2Ch6%7Bmargin%3A20px%200%2010px%3Bpadding%3A0%3Bfont%2Dweight%3Abold%3B%2Dwebkit%2Dfont%2Dsmoothing%3Asubpixel%2Dantialiased%3Bcursor%3Atext%7Dh1%7Bfont%2Dsize%3A28px%3Bcolor%3A%23000%7Dh2%7Bfont%2Dsize%3A24px%3Bborder%2Dbottom%3A1px%20solid%20%23ccc%3Bcolor%3A%23000%7Dh3%7Bfont%2Dsize%3A18px%3Bcolor%3A%23333%7Dh4%7Bfont%2Dsize%3A16px%3Bcolor%3A%23333%7Dh5%7Bfont%2Dsize%3A14px%3Bcolor%3A%23333%7Dh6%7Bcolor%3A%23777%3Bfont%2Dsize%3A14px%7Dp%2Cblockquote%2Ctable%2Cpre%7Bmargin%3A15px%200%7Dul%7Bpadding%2Dleft%3A30px%7Dol%7Bpadding%2Dleft%3A30px%7Dol%20li%20ul%3Afirst%2Dof%2Dtype%7Bmargin%2Dtop%3A0%7Dhr%7Bbackground%3Atransparent%20url%28data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw%2FeHBhY2tldCBiZWdpbj0i77u%2FIiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8%2BIDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI%2FPqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC%29%20repeat%2Dx%200%200%3Bborder%3A0%20none%3Bcolor%3A%23ccc%3Bheight%3A4px%3Bpadding%3A0%7Dbody%3Eh2%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%3Bpadding%2Dtop%3A0%7Dbody%3Eh1%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%3Bpadding%2Dtop%3A0%7Dbody%3Eh1%3Afirst%2Dchild%2Bh2%7Bmargin%2Dtop%3A0%3Bpadding%2Dtop%3A0%7Dbody%3Eh3%3Afirst%2Dchild%2Cbody%3Eh4%3Afirst%2Dchild%2Cbody%3Eh5%3Afirst%2Dchild%2Cbody%3Eh6%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%3Bpadding%2Dtop%3A0%7Da%3Afirst%2Dchild%20h1%2Ca%3Afirst%2Dchild%20h2%2Ca%3Afirst%2Dchild%20h3%2Ca%3Afirst%2Dchild%20h4%2Ca%3Afirst%2Dchild%20h5%2Ca%3Afirst%2Dchild%20h6%7Bmargin%2Dtop%3A0%3Bpadding%2Dtop%3A0%7Dh1%2Bp%2Ch2%2Bp%2Ch3%2Bp%2Ch4%2Bp%2Ch5%2Bp%2Ch6%2Bp%2Cul%20li%3E%3Afirst%2Dchild%2Col%20li%3E%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%7Ddl%7Bpadding%3A0%7Ddl%20dt%7Bfont%2Dsize%3A14px%3Bfont%2Dweight%3Abold%3Bfont%2Dstyle%3Aitalic%3Bpadding%3A0%3Bmargin%3A15px%200%205px%7Ddl%20dt%3Afirst%2Dchild%7Bpadding%3A0%7Ddl%20dt%3E%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%7Ddl%20dt%3E%3Alast%2Dchild%7Bmargin%2Dbottom%3A0%7Ddl%20dd%7Bmargin%3A0%200%2015px%3Bpadding%3A0%2015px%7Ddl%20dd%3E%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%7Ddl%20dd%3E%3Alast%2Dchild%7Bmargin%2Dbottom%3A0%7Dblockquote%7Bborder%2Dleft%3A4px%20solid%20%23DDD%3Bpadding%3A0%2015px%3Bcolor%3A%23777%7Dblockquote%3E%3Afirst%2Dchild%7Bmargin%2Dtop%3A0%7Dblockquote%3E%3Alast%2Dchild%7Bmargin%2Dbottom%3A0%7Dtable%7Bborder%2Dcollapse%3Acollapse%3Bborder%2Dspacing%3A0%3Bfont%2Dsize%3A100%25%3Bfont%3Ainherit%7Dtable%20th%7Bfont%2Dweight%3Abold%3Bborder%3A1px%20solid%20%23ccc%3Bpadding%3A6px%2013px%7Dtable%20td%7Bborder%3A1px%20solid%20%23ccc%3Bpadding%3A6px%2013px%7Dtable%20tr%7Bborder%2Dtop%3A1px%20solid%20%23ccc%3Bbackground%2Dcolor%3A%23fff%7Dtable%20tr%3Anth%2Dchild%282n%29%7Bbackground%2Dcolor%3A%23f8f8f8%7Dimg%7Bmax%2Dwidth%3A100%25%7Dcode%2Ctt%7Bmargin%3A0%202px%3Bpadding%3A0%205px%3Bwhite%2Dspace%3Anowrap%3Bborder%3A1px%20solid%20%23eaeaea%3Bbackground%2Dcolor%3A%23f8f8f8%3Bborder%2Dradius%3A3px%3Bfont%2Dfamily%3AConsolas%2C%27Liberation%20Mono%27%2CCourier%2Cmonospace%3Bfont%2Dsize%3A12px%3Bcolor%3A%23333%7Dpre%3Ecode%7Bmargin%3A0%3Bpadding%3A0%3Bwhite%2Dspace%3Apre%3Bborder%3A0%3Bbackground%3Atransparent%7D%2Ehighlight%20pre%7Bbackground%2Dcolor%3A%23f8f8f8%3Bborder%3A1px%20solid%20%23ccc%3Bfont%2Dsize%3A13px%3Bline%2Dheight%3A19px%3Boverflow%3Aauto%3Bpadding%3A6px%2010px%3Bborder%2Dradius%3A3px%7Dpre%7Bbackground%2Dcolor%3A%23f8f8f8%3Bborder%3A1px%20solid%20%23ccc%3Bfont%2Dsize%3A13px%3Bline%2Dheight%3A19px%3Boverflow%3Aauto%3Bpadding%3A6px%2010px%3Bborder%2Dradius%3A3px%7Dpre%20code%2Cpre%20tt%7Bbackground%2Dcolor%3Atransparent%3Bborder%3A0%7D%2Epoetry%20pre%7Bfont%2Dfamily%3AGeorgia%2CGaramond%2Cserif%21important%3Bfont%2Dstyle%3Aitalic%3Bfont%2Dsize%3A110%25%21important%3Bline%2Dheight%3A1%2E6em%3Bdisplay%3Ablock%3Bmargin%2Dleft%3A1em%7D%2Epoetry%20pre%20code%7Bfont%2Dfamily%3AGeorgia%2CGaramond%2Cserif%21important%3Bword%2Dbreak%3Abreak%2Dall%3Bword%2Dbreak%3Abreak%2Dword%3B%2Dwebkit%2Dhyphens%3Aauto%3B%2Dmoz%2Dhyphens%3Aauto%3Bhyphens%3Aauto%3Bwhite%2Dspace%3Apre%2Dwrap%7Dsup%2Csub%2Ca%2Efootnote%7Bfont%2Dsize%3A1%2E4ex%3Bheight%3A0%3Bline%2Dheight%3A1%3Bvertical%2Dalign%3Asuper%3Bposition%3Arelative%7Dsub%7Bvertical%2Dalign%3Asub%3Btop%3A%2D1px%7D%40media%20print%7Bbody%7Bbackground%3A%23fff%7Dimg%2Cpre%2Cblockquote%2Ctable%2Cfigure%7Bpage%2Dbreak%2Dinside%3Aavoid%7Dbody%7Bbackground%3A%23fff%3Bborder%3A0%7Dcode%7Bbackground%2Dcolor%3A%23fff%3Bcolor%3A%23333%21important%3Bpadding%3A0%20%2E2em%3Bborder%3A1px%20solid%20%23dedede%7Dpre%7Bbackground%3A%23fff%7Dpre%20code%7Bbackground%2Dcolor%3Awhite%21important%3Boverflow%3Avisible%7D%7D%40media%20screen%7Bbody%2Einverted%7Bcolor%3A%23eee%21important%3Bborder%2Dcolor%3A%23555%3Bbox%2Dshadow%3Anone%7D%2Einverted%20body%2C%2Einverted%20hr%20%2Einverted%20p%2C%2Einverted%20td%2C%2Einverted%20li%2C%2Einverted%20h1%2C%2Einverted%20h2%2C%2Einverted%20h3%2C%2Einverted%20h4%2C%2Einverted%20h5%2C%2Einverted%20h6%2C%2Einverted%20th%2C%2Einverted%20%2Emath%2C%2Einverted%20caption%2C%2Einverted%20dd%2C%2Einverted%20dt%2C%2Einverted%20blockquote%7Bcolor%3A%23eee%21important%3Bborder%2Dcolor%3A%23555%3Bbox%2Dshadow%3Anone%7D%2Einverted%20td%2C%2Einverted%20th%7Bbackground%3A%23333%7D%2Einverted%20h2%7Bborder%2Dcolor%3A%23555%7D%2Einverted%20hr%7Bborder%2Dcolor%3A%23777%3Bborder%2Dwidth%3A1px%21important%7D%3A%3Aselection%7Bbackground%3Argba%28157%2C193%2C200%2C0%2E5%29%7Dh1%3A%3Aselection%7Bbackground%2Dcolor%3Argba%2845%2C156%2C208%2C0%2E3%29%7Dh2%3A%3Aselection%7Bbackground%2Dcolor%3Argba%2890%2C182%2C224%2C0%2E3%29%7Dh3%3A%3Aselection%2Ch4%3A%3Aselection%2Ch5%3A%3Aselection%2Ch6%3A%3Aselection%2Cli%3A%3Aselection%2Col%3A%3Aselection%7Bbackground%2Dcolor%3Argba%28133%2C201%2C232%2C0%2E3%29%7Dcode%3A%3Aselection%7Bbackground%2Dcolor%3Argba%280%2C0%2C0%2C0%2E7%29%3Bcolor%3A%23eee%7Dcode%20span%3A%3Aselection%7Bbackground%2Dcolor%3Argba%280%2C0%2C0%2C0%2E7%29%21important%3Bcolor%3A%23eee%21important%7Da%3A%3Aselection%7Bbackground%2Dcolor%3Argba%28255%2C230%2C102%2C0%2E2%29%7D%2Einverted%20a%3A%3Aselection%7Bbackground%2Dcolor%3Argba%28255%2C230%2C102%2C0%2E6%29%7Dtd%3A%3Aselection%2Cth%3A%3Aselection%2Ccaption%3A%3Aselection%7Bbackground%2Dcolor%3Argba%28180%2C237%2C95%2C0%2E5%29%7D%2Einverted%7Bbackground%3A%230b2531%3Bbackground%3A%23252a2a%7D%2Einverted%20body%7Bbackground%3A%23252a2a%7D%2Einverted%20a%7Bcolor%3A%23acd1d5%7D%7D%2Ehighlight%20%2Ec%7Bcolor%3A%23998%3Bfont%2Dstyle%3Aitalic%7D%2Ehighlight%20%2Eerr%7Bcolor%3A%23a61717%3Bbackground%2Dcolor%3A%23e3d2d2%7D%2Ehighlight%20%2Ek%2C%2Ehighlight%20%2Eo%7Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Ecm%7Bcolor%3A%23998%3Bfont%2Dstyle%3Aitalic%7D%2Ehighlight%20%2Ecp%7Bcolor%3A%23999%3Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Ec1%7Bcolor%3A%23998%3Bfont%2Dstyle%3Aitalic%7D%2Ehighlight%20%2Ecs%7Bcolor%3A%23999%3Bfont%2Dweight%3Abold%3Bfont%2Dstyle%3Aitalic%7D%2Ehighlight%20%2Egd%7Bcolor%3A%23000%3Bbackground%2Dcolor%3A%23fdd%7D%2Ehighlight%20%2Egd%20%2Ex%7Bcolor%3A%23000%3Bbackground%2Dcolor%3A%23faa%7D%2Ehighlight%20%2Ege%7Bfont%2Dstyle%3Aitalic%7D%2Ehighlight%20%2Egr%7Bcolor%3A%23a00%7D%2Ehighlight%20%2Egh%7Bcolor%3A%23999%7D%2Ehighlight%20%2Egi%7Bcolor%3A%23000%3Bbackground%2Dcolor%3A%23dfd%7D%2Ehighlight%20%2Egi%20%2Ex%7Bcolor%3A%23000%3Bbackground%2Dcolor%3A%23afa%7D%2Ehighlight%20%2Ego%7Bcolor%3A%23888%7D%2Ehighlight%20%2Egp%7Bcolor%3A%23555%7D%2Ehighlight%20%2Egs%7Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Egu%7Bcolor%3A%23800080%3Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Egt%7Bcolor%3A%23a00%7D%2Ehighlight%20%2Ekc%2C%2Ehighlight%20%2Ekd%2C%2Ehighlight%20%2Ekn%2C%2Ehighlight%20%2Ekp%2C%2Ehighlight%20%2Ekr%7Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Ekt%7Bcolor%3A%23458%3Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Em%7Bcolor%3A%23099%7D%2Ehighlight%20%2Es%7Bcolor%3A%23d14%7D%2Ehighlight%20%2Ena%7Bcolor%3A%23008080%7D%2Ehighlight%20%2Enb%7Bcolor%3A%230086b3%7D%2Ehighlight%20%2Enc%7Bcolor%3A%23458%3Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Eno%7Bcolor%3A%23008080%7D%2Ehighlight%20%2Eni%7Bcolor%3A%23800080%7D%2Ehighlight%20%2Ene%2C%2Ehighlight%20%2Enf%7Bcolor%3A%23900%3Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Enn%7Bcolor%3A%23555%7D%2Ehighlight%20%2Ent%7Bcolor%3A%23000080%7D%2Ehighlight%20%2Env%7Bcolor%3A%23008080%7D%2Ehighlight%20%2Eow%7Bfont%2Dweight%3Abold%7D%2Ehighlight%20%2Ew%7Bcolor%3A%23bbb%7D%2Ehighlight%20%2Emf%2C%2Ehighlight%20%2Emh%2C%2Ehighlight%20%2Emi%2C%2Ehighlight%20%2Emo%7Bcolor%3A%23099%7D%2Ehighlight%20%2Esb%2C%2Ehighlight%20%2Esc%2C%2Ehighlight%20%2Esd%2C%2Ehighlight%20%2Es2%2C%2Ehighlight%20%2Ese%2C%2Ehighlight%20%2Esh%2C%2Ehighlight%20%2Esi%2C%2Ehighlight%20%2Esx%7Bcolor%3A%23d14%7D%2Ehighlight%20%2Esr%7Bcolor%3A%23009926%7D%2Ehighlight%20%2Es1%7Bcolor%3A%23d14%7D%2Ehighlight%20%2Ess%7Bcolor%3A%23990073%7D%2Ehighlight%20%2Ebp%7Bcolor%3A%23999%7D%2Ehighlight%20%2Evc%2C%2Ehighlight%20%2Evg%2C%2Ehighlight%20%2Evi%7Bcolor%3A%23008080%7D%2Ehighlight%20%2Eil%7Bcolor%3A%23099%7D%2Ehighlight%20%2Egc%7Bcolor%3A%23999%3Bbackground%2Dcolor%3A%23eaf2f5%7D%2Etype%2Dcsharp%20%2Ehighlight%20%2Ek%2C%2Etype%2Dcsharp%20%2Ehighlight%20%2Ekt%7Bcolor%3A%2300F%7D%2Etype%2Dcsharp%20%2Ehighlight%20%2Enf%7Bcolor%3A%23000%3Bfont%2Dweight%3Anormal%7D%2Etype%2Dcsharp%20%2Ehighlight%20%2Enc%7Bcolor%3A%232b91af%7D%2Etype%2Dcsharp%20%2Ehighlight%20%2Enn%7Bcolor%3A%23000%7D%2Etype%2Dcsharp%20%2Ehighlight%20%2Es%2C%2Etype%2Dcsharp%20%2Ehighlight%20%2Esc%7Bcolor%3A%23a31515%7D%0A" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h1 id="---">领域建模 - 对象状态</h1>
+<h2>1、状态建模</h2>
+<p><strong>1.1 为什么要状态建模</strong></p>
+<p>领域模型描述了问题域中事物及其之间的关系与量化的约束，我们需要进一步验证模型的有效性与完备性，管理这些事物的生命周期成为有效的方法 - 状态建模。它主要解决以下问题：</p>
+<ul>
+<li>从实例的角度识别业务事件，完善、优化业务过程的细节，细化业务过程与领域模型</li>
+<li>给出业务过程合理性与完备性验证</li>
+<li>为程序开发提供业务规范细节</li>
+</ul>
+<p>在软件分析与设计中，状态图是业务逻辑合理性分析的最重要工具。是设计分析师最常用工具！</p>
+<p><strong>1.2 UML 状态建模符号体系</strong></p>
+<p>状态图描述一个 <strong>事物或对象</strong> 受 <strong>事件或消息</strong> 刺激产生 可见的状态（属性/属性组合） 的数据变化。</p>
+<ul>
+<li>基础符号
+<ul>
+<li>起始状态（Initial）</li>
+<li>终止状态（Final）</li>
+<li>取消/对象取消（Termination）</li>
+<li>状态（State）</li>
+<li>变迁（Transform），含条件（Condition）、事件（Event）和事件处理动作（Action/Handler）</li>
+</ul></li>
+<li>扩展符号
+<ul>
+<li>复合状态</li>
+<li>信号</li>
+</ul></li>
+</ul>
+<p><img src="data:image/png;base64,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" alt="states-notation" /></p>
+<p>绘图注意事项：</p>
+<ul>
+<li>必须有起始状态，通常有终止和取消状态</li>
+<li>状态命名要用名词短语、动词过去时或正在进行时等具有延续性的词汇</li>
+<li>在需求分析过程中，尽可能不涉及动作</li>
+</ul>
+<p><strong>1.3 状态建模</strong></p>
+<p>应用场景：</p>
+<ul>
+<li>需求建模。 与客户讨论关键事物的变化过程。 进一步细化 用例图 或 用例场景。</li>
+<li>OOD/P 软件设计。 关键数据的变化；表达状态机；状态机模式（GOF）</li>
+</ul>
+<p>工作步骤：</p>
+<ol>
+<li>确定研究对象
+<ul>
+<li>这是最难的！系统作为一个对象？所有对象？</li>
+<li>通常是客户关注的业务交易实体，如订单，凭证等</li>
+</ul></li>
+<li>识别状态集合
+<ul>
+<li>I， F， S={S0...Sk}</li>
+<li>状态不一定是门的开或关闭这样简单属性，可能是属性复杂的组合</li>
+<li>事物中包含的 mode 和 state 属性</li>
+</ul></li>
+<li>识别事件和变迁条件</li>
+<li>合理性、完整性检查与逻辑分析
+<ul>
+<li>终点的可达性</li>
+<li>悬挂状态</li>
+<li>循环分析（死循环条件与风险）</li>
+<li>路径分析（最短路径、关键路径、平均距离）</li>
+</ul></li>
+</ol>
+<p><strong>1.4 案例研究</strong></p>
+<p>1）simple digital watch</p>
+<blockquote>
+<p>A simple digital watch has a display and two buttons to set it, the A button and the B button. The watch has two modes of operation, display time and set time. In the display time mode, hours and minutes are displayed, separated by a flashing colon.</p>
+<p>The set time mode has two sub-modes, set hours and set minutes. The A button is used to select modes. Each time A is pressed, the mode advances in sequence: display, set hours, set minutes, display etc. Within the sub-modes, the B button is used to advance the hours or minutes once each time it is pressed. Buttons must be released before they can generate another event.</p>
+</blockquote>
+<p>2）对 “Priests and Devils” 提出新的需求，在游戏中添加Help功能，用户点help，就自动完成目标移动。</p>
+<blockquote>
+<p>提示：游戏初始状态为[PPPDDD]B-[]，终止状态[]-B[PPPDDD]，其中[]表示河岸、P表示Priest、D表示Devil、B表示Boat。</p>
+</blockquote>
+<p>3）旅店的房间状态建模</p>
+<ul>
+<li>状态集合 S= { 可用，维护中，锁定，预定，使用中 }</li>
+<li>常见事件 E = { 电话预定，网上预定，支付，入住，取消预定，换房 ... ，退房 }</li>
+<li>会出现 取消状态 吗？</li>
+<li>检查你的订房系统分析，不能处理上述哪些事件？请完善相关用例图和文本！</li>
+</ul>
+<p><strong>1.5 与活动图的区别</strong></p>
+<p>几乎相同的符合形状与元素？</p>
+<h2 id="---api-">2、 面向资源的设计 - API 设计指南</h2>
+<p><strong>2.1 为什么要掌握面向资源的设计</strong></p>
+<p>如果你熟悉领域模型的获取（例如：你完成了 Find Hotel 用例的领域模型和数据库设计），又计划用 VUE、React 或 Angular 做前端，面向资源的设计的设计就是你的大杀器了！</p>
+<ul>
+<li>实践 &quot;API First&quot; 的设计思想，实现前后端分离开发</li>
+<li>实践 Test 驱动（TDD），实现边开发边测试</li>
+<li>学习设计规范的 RESTful API，达到生产级水平</li>
+</ul>
+<p>你需要掌握的知识：</p>
+<ul>
+<li>HTTP 协议基础</li>
+<li>标准：<a href="https://segmentfault.com/a/1190000008459700">Google API 设计指南 - 面向资源的设计</a></li>
+<li>工具：API 设计工具，推荐 <a href="https://apiary.io/">apiary</a></li>
+<li>测试工具： curl</li>
+</ul>
+<p><strong>2.2 资源</strong></p>
+<p>建议先阅读 <a href="https://www.infoq.com/articles/designing-restful-http-apps-roth">RESTful HTTP in practice</a> <a href="https://www.infoq.com/cn/articles/designing-restful-http-apps-roth?utm_source=infoq_en&amp;utm_medium=link_on_en_item&amp;utm_campaign=item_in_other_langs">中文翻译</a></p>
+<blockquote>
+<p>资源是REST中最关键的抽象概念，它们是能够被远程访问的应用程序对象。一个资源就是一个标识单位，任何可以被访问或被远程操纵的东西都可能是一个资源。</p>
+</blockquote>
+<p>[不给盗链]请阅读原文</p>
+<p>Figure 1: Example analysis model</p>
+<p>分析模型（课程教程是领域模型、或对象模型）是识别资源的一个非常好的“切入点”。资源设计的主要驱动力是网络因素而不是对象模型。任何重要的资源都应该能够通过一个唯一的标识被访问。RESTful HTTP使用URI来识别资源。</p>
+<p><strong>2.3 实例</strong></p>
+<p>Gmail API 服务实现了 Gmail API 并提供了 Gmail 的大部分功能。它有以下资源模型：</p>
+<ul>
+<li>Gmail API 服务：gmail.googleapis.com</li>
+<li>用户集合：users/*。每个用户有以下资源
+<ul>
+<li>消息集合：users/<em>/messages/</em></li>
+<li>线程集合：users/<em>/threads/</em></li>
+<li>标签集合：users/<em>/labels/</em></li>
+<li>修改历史集合：users/<em>/history/</em></li>
+<li>代表用户资料的资源：users/*/profile</li>
+<li>代表用户设置项的资源：users/*/settings</li>
+</ul></li>
+</ul>
+<p><strong>2.4 主要概念</strong></p>
+<p><strong>主资源</strong>：领域模型是交易实体或主要对象。例如 Hotels，Orders, Customers。 通常是复数！例如：</p>
+<pre><code>https://api.xx.com/users</code></pre>
+<p><strong>资源实例</strong>：一个资源的个体，由资源ID识别。例如：</p>
+<pre><code>https://api.xx.com/users/007-u1</code></pre>
+<p><strong>子资源</strong>：主资源拥有的资源。通常由分析模型导航关系决定，导航范围控制在两级以内。例如：</p>
+<pre><code>https://api.xx.com/users/007-u1/orders</code></pre>
+<p><strong>资源CRUD操作</strong></p>
+<p>使用 HTTP 操作实现:</p>
+<ul>
+<li>GET：从服务器取出资源（一项或多项）。</li>
+<li>POST：在服务器新建一个资源。</li>
+<li>PUT：在服务器更新资源（客户端提供改变后的完整资源）。</li>
+<li>PATCH：在服务器更新资源（客户端提供改变的属性）。</li>
+<li>DELETE：从服务器删除资源。</li>
+</ul>
+<p>如果要适应多种语言，请<strong>仅使用 GET 和 POST</strong></p>
+<p><strong>资源缓存</strong></p>
+<p>当 GET 返回码 304 是表示客户端支持缓存的。在做大量数据传输时，要充分利用缓存。自己研究 heads</p>
+<p><strong>资源过滤操作</strong></p>
+<p>例如：</p>
+<pre><code>https://api.xx.com/hotels?city=?&amp;start-date=?&amp;...</code></pre>
+<p><strong>资源投影操作</strong></p>
+<p>例如：</p>
+<pre><code>https://api.xx.com/hotels?projection=name,star,city,desc</code></pre>
+<p><strong>资源分页操作</strong></p>
+<p>例如：</p>
+<pre><code>https://api.xx.com/hotels?page=2&amp;per_page=100</code></pre>
+<p><strong>资源跨域操作</strong></p>
+<p>必须带 callback 参数，返回 jsonp 格式数据。例如：</p>
+<pre><code>https://api.xx.com/hotels?callback=callbackproc</code></pre>
+<p><strong>API 版本管理</strong></p>
+<ul>
+<li>采用版本识别 url。 例如 <a href="https://api.xx.com/v1/hotels" class="uri">https://api.xx.com/v1/hotels</a>?...</li>
+<li>采用 heads 发送版本信息</li>
+</ul>
+<p><strong>App 应用认证管理</strong></p>
+<p>认证访问 API 的程序是合法的</p>
+<ul>
+<li>http 基本认证</li>
+<li>url 中发送 appcode 参数</li>
+</ul>
+<p><strong>2.5 定旅馆案例研究</strong></p>
+<p>...</p>
+<p><strong>2.6 使用设计工具</strong></p>
+<p>为什么要使用工具？</p>
+<ul>
+<li>支持 API 文档化编写，同时生成服务端和客户端程序原型</li>
+<li>支持双向 mock 服务
+<ul>
+<li>生成可视化 API 客户端，集成测试服务端</li>
+<li>作为 mock 服务端，支持客户端开发</li>
+</ul></li>
+<li>支持 API 快速迭代</li>
+</ul>
+<p>如何有效使用这些工具？</p>
+<ul>
+<li>见同学的博客</li>
+</ul>
+<h2>3、个人作业</h2>
+<p>建模工具： UMLet 14.1.1 stand-alone</p>
+<p>1）使用 UML State Model</p>
+<ul>
+<li>建模对象： 参考 Asg_RH 文档， 对 Reservation/Order 对象建模。</li>
+<li>建模要求： 参考练习不能提供足够信息帮助你对订单对象建模，请参考现在 定旅馆 的旅游网站，尽可能分析围绕订单发生的各种情况，直到订单通过销售事件（柜台销售）结束订单。</li>
+</ul>
+<p>2）研究淘宝退货流程活动图，对退货业务对象状态建模</p>
+<h2>4、团队作业</h2>
+<ul>
+<li>1、<strong>About（项目规划）</strong></li>
+<li>2、Team profile（团队组建）</li>
+<li>3、Investigation（项目前期调研）</li>
+<li>4、Vision（项目愿景）</li>
+<li>5、Product Backlog （产品特性）</li>
+<li>6、Requirement specification（需求规格说明）
+<ul>
+<li>6.1 Usecase Diagram（用例图）</li>
+<li>6.2 Use Cases（用例+活动图）</li>
+<li>6.3 Domian Model（领域模型）</li>
+<li><strong>6.4 State Model（状态模型）</strong></li>
+</ul></li>
+<li>7、Design（设计）
+<ul>
+<li>7.1 UI design
+<ul>
+<li>XX 用例 UI设计</li>
+</ul></li>
+<li>7.2 Database design
+<ul>
+<li>7.2.1 用户及权限系统数据库设计</li>
+<li>7.2.2 XX子系统数据课设计</li>
+<li>7.2.x 第三方数据评审结果</li>
+</ul></li>
+<li><strong>7.3 API 设计</strong></li>
+</ul></li>
+<li>8、生产规范与指南
+<ul>
+<li>8.1 XX 代码规范</li>
+<li><strong>8.2 REST API 设计规范</strong></li>
+</ul></li>
+<li>X1 meet_recording
+<ul>
+<li>inception meeting (yy/mm/dd)</li>
+</ul></li>
+<li>X2 Tech/Work Report
+<ul>
+<li>学号-title</li>
+</ul></li>
+</ul>
+<p>团队作业要求：</p>
+<ol>
+<li>1 检查第一个迭代内容与组织，规划第二个迭代</li>
+<li>6.4 需要简述建模理由和方法</li>
+<li>7.3 仅需要在线链接。链接到你发布的 API</li>
+<li>8.2 可以参考网上 REST API 设计规范，请重新按自己的设计组织，并不断更新</li>
+</ol>
+</body>
+</html>

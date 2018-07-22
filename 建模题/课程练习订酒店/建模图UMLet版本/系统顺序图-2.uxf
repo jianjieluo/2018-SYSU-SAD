@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>430</x>
+      <y>140</y>
+      <w>350</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>OC:前置条件 FindHotelForm has saved in session
+a hotel list created
+a list of available rooms created
+total price was calculated by #nights for each room
+relationship between hotel and rooms created</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>80</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>_:Traveler_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>30</x>
+      <y>90</y>
+      <w>30</w>
+      <h>430</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;410.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>30</x>
+      <y>160</y>
+      <w>390</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+findHotelById(hotelId)</panel_attributes>
+    <additional_attributes>370.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>80</y>
+      <w>30</w>
+      <h>440</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;420.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>350</x>
+      <y>60</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>_:System_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>30</x>
+      <y>260</y>
+      <w>390</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+choosedRoom(Hotel-Id, Room-Id-List)</panel_attributes>
+    <additional_attributes>370.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>30</x>
+      <y>340</y>
+      <w>390</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+confirmReservation(ReservationId,customer-info)</panel_attributes>
+    <additional_attributes>370.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>430</x>
+      <y>260</y>
+      <w>350</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>OC:
+Billing Information was calculated
+Reservation created and saved</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>430</x>
+      <y>340</y>
+      <w>350</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>OC:
+customer-info created and
+relation was added to Reservation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>30</x>
+      <y>420</y>
+      <w>390</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+checkoutReservation(ReservationId, email)</panel_attributes>
+    <additional_attributes>370.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>430</x>
+      <y>420</y>
+      <w>350</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>OC:
+Reservation add to Basket
+Reservation.email changed
+Rooms selected was unavailable</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
